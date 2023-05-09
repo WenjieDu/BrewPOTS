@@ -1,2 +1,4 @@
 pypots
+tsdb
+pycorruptor
 jupyterlab

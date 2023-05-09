@@ -1,0 +1,45 @@
+name: CI
+
+on:
+    push:
+        branches:
+            - main
+            - dev
+    pull_request:
+        branches:
+            - dev
+
+jobs:
+    CI-testing:
+        runs-on: ${{ matrix.os }}
+        defaults:
+            run:
+                shell: bash -l {0}
+        strategy:
+            fail-fast: false
+            matrix:
+                os: [ubuntu-latest, windows-latest, macOS-latest]
+                python-version: ["3.7", "3.9", "3.10"]
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Set up Conda
+              uses: conda-incubator/setup-miniconda@v2
+              with:
+                  activate-environment: pypots-test
+                  python-version: ${{ matrix.python-version }}
+                  environment-file: conda-environment.yml
+                  auto-activate-base: false
+
+            - name: Fetch the test environment details
+              run: |
+                  which python
+                  conda info
+                  conda list
+
+            - name: Test all notebook files
+              run: |
+                  ipython -c "%run PyPOTS_Imputation_Models.ipynb"
+                  ipython -c "%run PyPOTS_Classification_Models.ipynb"
+                  ipython -c "%run PyPOTS_Clustering_Models.ipynb"

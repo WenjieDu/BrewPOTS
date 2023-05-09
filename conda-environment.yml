@@ -8,6 +8,8 @@ channels:
 
 dependencies:
     - conda-forge::pypots
+    - conda-forge::tsdb
+    - conda-forge::pycorruptor
     - conda-forge::jupyterlab
 
     # optional
