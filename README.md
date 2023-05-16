@@ -16,9 +16,14 @@ For sure, it seems that we also need a coffee grinder to help us grind beans int
 What do you think this grinder will be named? 😉
 
 -----------------
-❗️Please note that the tutorials here are prepared for PyPOTS v0.1 which hasn't been released officially.
-Before running the tutorials, you should install PyPOTS from the latest source code by running 
-`pip install https://github.com/WenjieDu/PyPOTS/archive/main.zip`.
+The tutorials here are for PyPOTS users to quick start their practice, not for achieving the state-of-the-art performance.
+So we didn't fine tune the hyper-parameters of each models in the tutorials.
+You can tune the hyper-parameters by yourself to get better performance on the tutorial dataset PhysioNet-2012 or on your own datasets.
+
+Enjoy it! ☕️ And have fun!
+
+❗Note that the tutorials here are for PyPOTS v0.1.
+Please ensure your installed PyPOTS version is >=0.1.
 
 
 <details>
