@@ -7,7 +7,7 @@ channels:
     - nodefaults
 
 dependencies:
-    - conda-forge::pypots
+    - conda-forge::pypots >=0.1
     - conda-forge::tsdb
     - conda-forge::pycorruptor
     - conda-forge::jupyterlab
