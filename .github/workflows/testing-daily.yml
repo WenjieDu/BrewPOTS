@@ -1,4 +1,4 @@
-name: CI
+name: Daily Testing
 
 on:
     schedule:
@@ -51,8 +51,7 @@ jobs:
             
             - name: Test all notebook files
               run: |
-                  ipython -c "%run PyPOTS_Imputation_Models.ipynb"
-                  ipython -c "%run PyPOTS_Classification_Models.ipynb"
-                  ipython -c "%run PyPOTS_Clustering_Models.ipynb"
-
-
+                  ipython -c "%run PyPOTS_Imputation.ipynb"
+                  ipython -c "%run PyPOTS_Classification.ipynb"
+                  ipython -c "%run PyPOTS_Clustering.ipynb"
+                  ipython -c "%run PyPOTS_Forecasting.ipynb"
