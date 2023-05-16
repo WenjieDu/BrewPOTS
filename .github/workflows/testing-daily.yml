@@ -55,5 +55,3 @@ jobs:
                   ipython -c "%run PyPOTS_Classification.ipynb"
                   ipython -c "%run PyPOTS_Clustering.ipynb"
                   ipython -c "%run PyPOTS_Forecasting.ipynb"
-
-

@@ -1,0 +1,18 @@
+name: BrewedPOTS
+
+channels:
+    - conda-forge
+    - pytorch
+    - pyg
+    - nodefaults
+
+dependencies:
+    - conda-forge::pypots
+    - conda-forge::tsdb
+    - conda-forge::pycorruptor
+    - conda-forge::jupyterlab
+
+    # optional
+    - pyg::pyg
+    - pyg::pytorch-scatter
+    - pyg::pytorch-sparse
