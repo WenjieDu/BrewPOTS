@@ -1,6 +1,9 @@
 name: Daily Testing
 
 on:
+    push:
+        branches:
+            - dev
     schedule:
         # https://crontab.guru. Run everyday at 0:00AM UTC, i.e. 08:00AM Beijing, i.e. 08:00PM Montreal (summer time)
         -   cron: "0 0 * * *"
@@ -10,7 +13,7 @@ jobs:
         runs-on: ${{ matrix.os }}
         defaults:
             run:
-                shell: bash -l {0}
+                shell: bash {0}
         strategy:
             fail-fast: false
             matrix:
