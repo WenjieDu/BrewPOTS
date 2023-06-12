@@ -3,7 +3,7 @@
 </a>
 
 ## <p align="center">Welcome to BrewPOTS</p>
-**<p align="center">The tutorials help brew your Partially-Observed Time Series datasets</p>**
+**<p align="center">The tutorials help you brew Partially-Observed Time Series</p>**
 
 <a href="https://github.com/WenjieDu/PyPOTS">
     <img src="https://raw.githubusercontent.com/WenjieDu/PyPOTS/main/docs/_static/figs/PyPOTS_logo.svg?sanitize=true" align="left" width="128" alt="PyPOTS logo"/>
