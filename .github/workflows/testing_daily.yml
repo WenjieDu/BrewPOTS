@@ -50,7 +50,7 @@ jobs:
 
             - name: Install other dependencies
               run: |
-                  pip install pypots
+                  pip install https://github.com/WenjieDu/PyPOTS/archive/main.zip 
                   pip install torch-geometric torch-scatter torch-sparse -f "https://data.pyg.org/whl/torch-${{ matrix.torch-version }}+cpu.html"
                   pip install jupyterlab
 
