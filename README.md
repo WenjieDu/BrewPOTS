@@ -1,12 +1,13 @@
 <a href="https://github.com/WenjieDu/PyPOTS">
-    <img alt="BrewPOTS logo" src="https://raw.githubusercontent.com/PyPOTS/pypots.github.io/main/static/figs/pypots_logos/BrewPOTS_logo_FFBG.svg?sanitize=true" width="180" align="right">
+    <img alt="BrewPOTS logo" src="https://pypots.com/figs/pypots_logos/BrewPOTS_logo_FFBG.svg?sanitize=true" width="180" align="right">
 </a>
 
-## <p align="center">Welcome to BrewPOTS</p>
+<h2 align="center">Welcome to BrewPOTS</h2>
+
 **<p align="center">The tutorials help you brew Partially-Observed Time Series</p>**
 
 <a href="https://github.com/WenjieDu/PyPOTS">
-    <img src="https://raw.githubusercontent.com/PyPOTS/pypots.github.io/main/static/figs/pypots_logos/PyPOTS_logo_FFBG.svg?sanitize=true" align="left" width="128" alt="PyPOTS logo"/>
+    <img src="https://pypots.com/figs/pypots_logos/PyPOTS_logo_FFBG.svg?sanitize=true" align="left" width="128" alt="PyPOTS logo"/>
 </a>
 In this project, partially-observed time series datasets are taken as coffee beans.
 As you can see, there is a coffee pot in the PyPOTS logo on the left,
