@@ -1,4 +1,4 @@
-<a href="https://github.com/WenjieDu/PyPOTS">
+<a href="https://github.com/WenjieDu/BrewPOTS">
     <img alt="BrewPOTS logo" src="https://pypots.com/figs/pypots_logos/BrewPOTS/logo_FFBG.svg" width="180" align="right">
 </a>
 
@@ -18,6 +18,11 @@ The tutorials here are for PyPOTS users to quick start their practice, not for a
 So we didn't fine tune the hyper-parameters of each models in the tutorials.
 You can tune the hyper-parameters by yourself to get better performance on the tutorial dataset PhysioNet-2012 or on your own datasets.
 
+Besides BrewPOTS, you can also find a simple and quick-start tutorial notebook on Google Colab
+<a href="https://colab.research.google.com/drive/1HEFjylEy05-r47jRy0H9jiS_WhD0UWmQ">
+<img src="https://img.shields.io/badge/GoogleColab-PyPOTS_Tutorials-F9AB00?logo=googlecolab&logoColor=white" alt="Colab tutorials" align="center"/>
+</a>.
+
 Enjoy it! ☕️ And have fun!
 
 
@@ -34,7 +39,7 @@ please cite PyPOTS project as below and 🌟star this repository to make others 
 </p>
 
 ``` bibtex
-@article{du2023PyPOTS,
+@article{du2023pypots,
 title={{PyPOTS: a Python toolbox for data mining on Partially-Observed Time Series}},
 author={Wenjie Du},
 year={2023},
