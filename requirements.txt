@@ -1,4 +1,0 @@
-pypots >=0.3.1
-tsdb
-pygrinder
-jupyterlab
