@@ -1,2 +1,0 @@
-pypots >=0.18
-jupyterlab
