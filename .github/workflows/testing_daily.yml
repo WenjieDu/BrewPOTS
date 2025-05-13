@@ -30,7 +30,7 @@ jobs:
                 if_true: "3.7.16"
                 if_false: ${{ matrix.python-version }}
 
-            - uses: actions/setup-python@v4
+            - uses: actions/setup-python@v5
               with:
                 python-version: ${{ steps.condval.outputs.value }}
                 check-latest: true
