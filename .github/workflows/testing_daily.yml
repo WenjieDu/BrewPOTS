@@ -19,7 +19,7 @@ jobs:
                 torch-version: ["1.13.1"]
         steps:
             - name: Check out the repo code
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: Determine the Python version
               uses: haya14busa/action-cond@v1
