@@ -9,6 +9,17 @@
 
 ---
 
+## 💻 Run Interactively on Google Colab
+
+You can launch and run both tutorial notebooks directly in your browser via Google Colab with one click:
+
+| Tutorial Notebook | Interactive Google Colab Link |
+| :--- | :--- |
+| **Part I: Apply PyPOTS to Time Series Analysis** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hTP6X5vPpYYmMZdAZEEvXnjcEak6INK0?usp=sharing) |
+| **Part II: Extend PyPOTS to Specialties** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rgMuESn-zzBjcPqNlButQk1YuJdDGre4?usp=sharing) |
+
+---
+
 ## 📖 Overview
 
 Partially-observed time series (POTS) are ubiquitous in real-world applications (healthcare vitals, IoT sensor networks, meteorology, and financial logs). However, conventional ML toolchains isolate missing-value imputation from downstream predictive modeling, causing error propagation, poor reusability, and fragmented codebases.
@@ -21,10 +32,10 @@ This **KDD 2026 Hands-on Tutorial** introduces **PyPOTS**, an open-source Python
 
 This directory contains executable Jupyter Notebooks:
 
-| File | Description | Target Audience |
-| :--- | :--- | :--- |
-| 📓 [`pypots_tutorial_part1_pots_pipeline.ipynb`](./pypots_tutorial_part1_pots_pipeline.ipynb) | **Part I: Apply PyPOTS to Time Series Analysis**<br>• POTS fundamentals & missingness mechanisms (MCAR, MAR, MNAR)<br>• Data preparation & missingness simulation with PyGrinder & BenchPOTS<br>• Unified model training across Imputation, Forecasting, Classification, Clustering, Anomaly Detection<br>• Metric selection, error analysis, and visualization | Practitioners, Data Scientists, & Software Engineers |
-| 📓 [`pypots_tutorial_part2_extending_pypots.ipynb`](./pypots_tutorial_part2_extending_pypots.ipynb) | **Part II: Extend PyPOTS to Specialties**<br>• PyPOTS 3-Layer Architecture (Backbone `nn/modules`, Core `core.py`, Wrapper `model.py`) & 3 Integration Paths<br>• Multi-task standard neural network integration (Imputation, Forecasting, Classification)<br>• Complex multi-optimizer GAN models (`CustomGANImputer`) & Non-NN statistical algorithm wrapping (`CustomInterpolationImputer`)<br>• Domain constraints (`deltas`, feature-wise masks, weighted MSE)<br>• Standardized unit testing (`test_0_fit` -> `test_4_lazy_loading`) & HDF5 lazy loading<br>• Open-source contribution workflow (Black, NumPy docstrings, `pypots-cli dev`) & pre-PR checklist<br>• **Real-World Assignment**: Continuous 2D time series sliding-window slicing via `benchpots.utils.sliding_window` | Developers, Researchers, & Core Contributors |
+| File | Description | Target Audience | Run in Colab |
+| :--- | :--- | :--- | :--- |
+| 📓 [`pypots_tutorial_part1_pots_pipeline.ipynb`](./pypots_tutorial_part1_pots_pipeline.ipynb) | **Part I: Apply PyPOTS to Time Series Analysis**<br>• POTS fundamentals & missingness mechanisms (MCAR, MAR, MNAR)<br>• Data preparation & missingness simulation with PyGrinder & BenchPOTS<br>• Unified model training across Imputation, Forecasting, Classification, Clustering, Anomaly Detection<br>• Metric selection, error analysis, and visualization | Practitioners, Data Scientists, & Software Engineers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hTP6X5vPpYYmMZdAZEEvXnjcEak6INK0?usp=sharing) |
+| 📓 [`pypots_tutorial_part2_extending_pypots.ipynb`](./pypots_tutorial_part2_extending_pypots.ipynb) | **Part II: Extend PyPOTS to Specialties**<br>• PyPOTS 3-Layer Architecture (Backbone `nn/modules`, Core `core.py`, Wrapper `model.py`) & 3 Integration Paths<br>• Multi-task standard neural network integration (Imputation, Forecasting, Classification)<br>• Complex multi-optimizer GAN models (`CustomGANImputer`) & Non-NN statistical algorithm wrapping (`CustomInterpolationImputer`)<br>• Domain constraints (`deltas`, feature-wise masks, weighted MSE)<br>• Standardized unit testing (`test_0_fit` -> `test_4_lazy_loading`) & HDF5 lazy loading<br>• Open-source contribution workflow (Black, NumPy docstrings, `pypots-cli dev`) & pre-PR checklist<br>• **Real-World Assignment**: Continuous 2D time series sliding-window slicing via `benchpots.utils.sliding_window` | Developers, Researchers, & Core Contributors | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rgMuESn-zzBjcPqNlButQk1YuJdDGre4?usp=sharing) |
 
 ---
 
